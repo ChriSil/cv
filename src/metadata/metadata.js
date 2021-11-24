@@ -1,6 +1,6 @@
 module.exports = {
-  name: 'Christopher Siller',
-  title: 'THIS IS A WORK IN PROGRESS Software Engineer',
+  name: 'WIP Christopher Siller',
+  title: 'Software Engineer',
   facts: {
     'Residence': 'Munich, Germany',
     'LinkedIn': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
@@ -13,8 +13,8 @@ module.exports = {
     'Email': '<a href="mailto:chsiller91@gmail.com"chsiller91@gmail.com</a>',
   },
   skills: [
-    ['Comedy', '++++'],
-    ['Love', '++++'],
+    ['Python', '++++'],
+    ['JavaScript', '++++'],
     ['Theater', '++++'],
     ['Tragedy', '++++'],
     ['Poetry', '++++'],
