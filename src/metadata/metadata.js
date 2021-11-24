@@ -1,13 +1,16 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: 'Christopher Siller',
+  title: 'THIS IS A WORK IN PROGRESS Software Engineer',
   facts: {
-    'Residence': 'London',
-    'Homepage': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
+    'Residence': 'Munich, Germany',
+    'LinkedIn': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
                   <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
                   <span class="screen">wiki</span>
                 </a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com">wil64@yahoo.com</a>'
+    'GitHub': '<a href="mailto:chsiller91@gmail.com"chsiller91@gmail.com</a>',
+    'StackOverflow': '<a href="mailto:chsiller91@gmail.com"chsiller91@gmail.com</a>',
+    'HackerRank': '<a href="mailto:chsiller91@gmail.com"chsiller91@gmail.com</a>',
+    'Email': '<a href="mailto:chsiller91@gmail.com"chsiller91@gmail.com</a>',
   },
   skills: [
     ['Comedy', '++++'],
