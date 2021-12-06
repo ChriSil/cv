@@ -1,71 +1,79 @@
 module.exports = {
   name: 'WIP Christopher Siller',
-  title: 'Software Engineer',
+  title: 'Software Engineer, M.Sc.',
   facts: {
-    'Residence': 'Munich, Germany',
-    'LinkedIn': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <span class="print">https://en.wikipedia.org/wiki/William_Shakespeare</span>
-                  <span class="screen">wiki</span>
-                </a>`,
-    'GitHub': '<a href="mailto:chsiller91@gmail.com"chsiller91@gmail.com</a>',
-    'StackOverflow': '<a href="mailto:chsiller91@gmail.com"chsiller91@gmail.com</a>',
-    'HackerRank': '<a href="mailto:chsiller91@gmail.com"chsiller91@gmail.com</a>',
-    'Email': '<a href="mailto:chsiller91@gmail.com"chsiller91@gmail.com</a>',
+    'Residence': 'Konnersreuth, Germany',
+    'LinkedIn': 'Dere',
+    'GitHub': 'Dere',
+    'StackOverflow': 'Dere',
+    'HackerRank': 'Dere',
+    'Email': 'Dere',
   },
   skills: [
     ['Python', '++++'],
-    ['JavaScript', '++++'],
-    ['Theater', '++++'],
-    ['Tragedy', '++++'],
-    ['Poetry', '++++'],
-    ['Erotic', '+++'],
-    ['Sonnets', '++++'],
-    ['Plays', '++++'],
-    ['Writing', '++++'],
-    ['Directing', '+++'],
-    ['Literature', '++++'],
-    ['Influence', '++++'],
+    ['C++', '++++'],
+    ['JavaScript', '+++'],
+    ['NodeJS', '++'],
+    ['PyTorch', '+++'],
+    ['TensorFlow', '+++'],
+    ['Embedded Linux', '++++'],
+    ['ROS', '++++'],
+    ['SQL', '++++'],
+    ['', '+++'],
+    ['', '++++'],
+    ['', '++++'],
   ],
   plays: [
     {
-      title: 'Hamlet',
-      written: 'Likely early 17th century',
-      badges: ['tragedy', 'philosophy', 'death'],
-      contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+      title: 'Hatch Inc.,',
+      subtitle: 'Portland, OR, USA',
+      jtitle: 'Systems Engineer',
+      written: 'October 2018 - October 2021',
+      badges: ['Python', 'C++', 'MatLab'],
+      contents: `Simulation Result analysis, macro excel and python scrpt kiddy`
     },
     {
-      title: 'Twelfth Night',
-      written: '1600 – 1601',
-      badges: ['comedy', 'love'],
-      contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+      title: 'Siemens Transmission Solutions,',
+      subtitle: 'Erlangen, Germany',
+      jtitle: 'Working Student, R&D',
+      written: 'November 2015 - December 2017',
+      badges: ['LabView', 'C++', 'MatLab'],
+      contents: `Development of remote, automated test rig for High Voltage DC Switch testing`
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      written: '1595–1596, with a possible early draft written in 1591',
+      title: 'Siemens Rail Electrification,',
+      subtitle: 'Portland, OR, USA',
+      jtitle: 'Trainee in Project Engineering',
+      written: 'October 2014 - July 2015',
       badges: ['tragedy', 'death', 'love'],
-      contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
+      contents: `WIP`
+    },
+    {
+      title: 'Siemens Infrastructure and Cities,',
+      subtitle: 'Erlangen, Germany',
+      jtitle: 'Working Student, IT Infrastructure',
+      written: 'June 2012 - September 2014',
+      badges: ['tragedy', 'death', 'love'],
+      contents: `WIP`
     }
   ],
   experience: [
     {
-      header: 'Performance',
+      header: 'Masters Thesis',
       skills: ['theater', 'play'],
-      contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
+      contents: `Software development to calculating flight trajectories for autonomous
+      multicopters in intralogistics`
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
-      contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. He dedicated them to Henry Wriothesley, Earl of Southampton.
-`
-    }
+      header: 'Project Thesis',
+      skills: ['theater', 'play'],
+      contents: `Fabrication of artficial muscles using the Aerosol-Jet-3D-Print method`
+    },
+    {
+      header: 'Bachelors Thesis',
+      skills: ['theater', 'play'],
+      contents: `Experimental and simulative analysis of thermally conductive polymers in
+      high power LED-systems`
+    },
   ]
-};
+}
