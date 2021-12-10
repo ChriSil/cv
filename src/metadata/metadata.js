@@ -1,7 +1,7 @@
 module.exports = {
-  name: 'WIP Christopher Siller',
+  name: 'Christopher Siller',
   title: 'Software Engineer, M.Sc.',
-  facts: {
+  facts: { // not used
     'Residence': 'Konnersreuth, Germany',
     'LinkedIn': 'Dere',
     'GitHub': 'Dere',
@@ -25,12 +25,13 @@ module.exports = {
   ],
   plays: [
     {
-      title: 'Hatch Inc.,',
+      title: 'Hatch Engineering Inc.,',
       subtitle: 'Portland, OR, USA',
       jtitle: 'Systems Engineer',
       written: 'October 2018 - October 2021',
-      badges: ['Python', 'C++', 'MatLab'],
-      contents: `Simulation Result analysis, macro excel and python scrpt kiddy`
+      badges: ['Python', 'C++', 'MatLab', 'Scrum'],
+      contents: `Main Tasks at hatch included development, application, and result analysis of our in-house heuristic Simulation tool for light rail train systems.Simulation Result analysis, macro excel and python scrpt kiddy ////Main responsibilities included:`,
+      subcontents: ['a', 'B', 'C']
     },
     {
       title: 'Siemens Transmission Solutions,',
@@ -43,9 +44,9 @@ module.exports = {
     {
       title: 'Siemens Rail Electrification,',
       subtitle: 'Portland, OR, USA',
-      jtitle: 'Trainee in Project Engineering',
+      jtitle: 'Trainee, Project Engineering',
       written: 'October 2014 - July 2015',
-      badges: ['tragedy', 'death', 'love'],
+      badges: ['LabView', 'MatLab', ''],
       contents: `WIP`
     },
     {
@@ -53,11 +54,11 @@ module.exports = {
       subtitle: 'Erlangen, Germany',
       jtitle: 'Working Student, IT Infrastructure',
       written: 'June 2012 - September 2014',
-      badges: ['tragedy', 'death', 'love'],
+      badges: ['SQL', 'Linux', ''],
       contents: `WIP`
     }
   ],
-  experience: [
+  experience: [ //not used
     {
       header: 'Masters Thesis',
       skills: ['theater', 'play'],

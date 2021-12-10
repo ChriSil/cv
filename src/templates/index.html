@@ -78,9 +78,11 @@
                 <p class="text-muted">{{ written }}</p>
 
                 {{{markdown contents }}}
-
+                <ul>
+                    {{#each subcontents}}<li>{{this}}</li>{{/each}}
+                </ul>
                 <div>
-                    {{#each badges }}
+                    Relevant Skills:{{#each badges }}
                     <span class="badge badge-primary">{{ this }}</span>
                     {{/each}}
                 </div>
@@ -89,9 +91,11 @@
         {{/each}}
 
         <h2>Education</h2>
-        <li>Master of Science, Friedrich Alexander Universität Erlangen-Nürnberg [2015 - 2018]</li>
-        <li>Bachelor of Science, Maschinenbau, Friedrich Alexander Universität Erlangen-Nürnberg [2011 - 2015]</li>
-
+        <ul>
+            <li>Master of Science, Maschinenbau, Friedrich Alexander Universität Erlangen-Nürnberg [2015 - 2018]</li>
+            <li>Bachelor of Science, Maschinenbau, Friedrich Alexander Universität Erlangen-Nürnberg [2011 - 2015]</li>
+        </ul>
+        <!-- 
         <h2>Additional Experience</h2>
 
         {{#each experience}}
@@ -109,6 +113,63 @@
             </div>
         </div>
         {{/each}}
+    -->
+        <h2>Additional Experience</h2>
+
+        <ul>
+            <li>
+                Contributing member of the NNFS community. This is an effort to teach understanding of Neural networks
+                by building it from Scratch in raw Python.
+                <ul>
+                    <li><a href="https://nnfs.io/">Neural Networks from Scratch</a>
+
+                    </li>
+                    <span class="badge badge-primary">Python</span> <span class="badge badge-primary">Pytorch</span>
+                    <span class="badge badge-primary">NumPy</span> <span class="badge badge-primary">Anaconda</span>
+                </ul>
+            </li>
+            <li>
+                Masters Thesis:"Software development to calculating flight trajectories for autonomous
+                multicopters in intralogistics"
+                <ul>
+                    <li><a
+                            href="https://www.faps.fau.de/curforsch/intrafly-einsatz-autonomer-flugroboter-in-der-intralogistik/">Intrafly
+                            Project University Erlangen</a>
+                    </li>
+                    <span class="badge badge-primary">C++</span> <span class="badge badge-primary">Python</span>
+                    <span class="badge badge-primary">ROS</span> <span class="badge badge-primary">Embd. Linux</span>
+
+                </ul>
+
+
+            </li>
+            <li>
+                Registered Yoga Teacher (RYT 200) at Yoga Alliance USA.
+
+                <ul>
+                    <li><a
+                            href="https://www.yogaalliance.org/Our_Standards/Elevated_RYS_200_Standards">https://www.yogaalliance.org/</a>
+                    </li>
+                </ul>
+                <br>
+            </li>
+            <li>
+                I am an active member of the German and American Alpine Club, and I like to write about my endeavours in
+                the mountains.
+                <ul>
+                    <li><a href="https://www.aac.org/">American Alpine Club profile</a>
+                    </li>
+                    <li><a href="https://www.aac.org/">Deutscher AplKarlsB</a>
+                    </li>
+                    <li><a href="https://www.aac.org/">AAVM</a>
+                    </li>
+                </ul>
+
+                <br>
+            </li>
+        </ul>
+
+
     </div>
 </body>
 
