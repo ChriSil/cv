@@ -10,18 +10,24 @@ module.exports = {
     'Email': 'Dere',
   },
   skills: [
-    ['Python', '++++'],
-    ['C++', '++++'],
-    ['JavaScript', '+++'],
-    ['NodeJS', '++'],
-    ['PyTorch', '+++'],
-    ['TensorFlow', '+++'],
-    ['Embedded Linux', '++++'],
-    ['ROS', '++++'],
-    ['SQL', '++++'],
+    ['Python', '++++'], //Row1Col1
+    ['PyTorch', '++'],
+    ['TensorFlow', '++'],
+    ['Anaconda', '++'],
+    ['Docker', '++'],
+    ['Linux', '++++'],
+    ['C++', '+++'], //Row2Col1
+    ['MatLab', '+++'],
     ['', '+++'],
-    ['', '++++'],
-    ['', '++++'],
+    ['AWS', '+++'],
+    ['SQL', '+++'],
+    ['ROS', '+++'],
+    ['JavaScript', '++'],  //Row2Col1
+    ['NodeJS', '+++'],
+    ['Azure', '++'],
+    ['', '+++'],
+    ['Scrum', '+++'],
+    ['GitHub', '++++'],
   ],
   plays: [
     {
@@ -39,23 +45,23 @@ module.exports = {
       jtitle: 'Working Student, R&D',
       written: 'November 2015 - December 2017',
       badges: ['LabView', 'C++', 'MatLab'],
-      contents: `Part of a R&D team building a test facility for a high voltage DC Switch. My task was to build a virtual workbench to allow remote charging and testing, as well as test result analysis. `
+      contents: `R&D Team member,  building a test facility for a high voltage DC Switch. My task was to build a virtual workbench to allow remote charging and testing, as well as test result analysis. `
     },
     {
       title: 'Siemens Rail Electrification,',
       subtitle: 'Portland, OR, USA',
       jtitle: 'Trainee, Project Engineering',
       written: 'October 2014 - July 2015',
-      badges: ['LabView', 'MatLab', ''],
-      contents: `WIP`
+      badges: ['LabView', 'MatLab', 'Siemens NX'],
+      contents: `Followed Helped facilitate factory acceptance test automation.`
     },
     {
       title: 'Siemens Infrastructure and Cities,',
       subtitle: 'Erlangen, Germany',
       jtitle: 'Working Student, IT Infrastructure',
       written: 'June 2012 - September 2014',
-      badges: ['SQL', 'Linux', ''],
-      contents: `WIP`
+      badges: ['SQL', 'Linux', 'SharePoint', 'Access'],
+      contents: 'Working Student in part time, helping on-site with user IT issues, migration of Operating Systems, maintenance and migration of databases and server environments.'
     }
   ],
   experience: [ //not used
