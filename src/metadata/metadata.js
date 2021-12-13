@@ -11,23 +11,23 @@ module.exports = {
   },
   skills: [
     ['Python', '++++'], //Row1Col1
-    ['PyTorch', '++'],
-    ['TensorFlow', '++'],
+    ['HTML/CSS', '+++'],
     ['Anaconda', '++'],
-    ['Docker', '++'],
+    ['Docker', '+++'],
+    ['VBA', '++'],
     ['Linux', '++++'],
     ['C++', '+++'], //Row2Col1
     ['MatLab', '+++'],
-    ['', '+++'],
-    ['AWS', '+++'],
+    ['PyTorch', '+++'],
+    ['AWS', '++'],
     ['SQL', '+++'],
-    ['ROS', '+++'],
-    ['JavaScript', '++'],  //Row2Col1
-    ['NodeJS', '+++'],
-    ['Azure', '++'],
-    ['', '+++'],
-    ['Scrum', '+++'],
     ['GitHub', '++++'],
+    ['JavaScript', '++'],  //Row2Col1
+    ['NodeJS', '++'],
+    ['TensorFlow', '++'],
+    ['ROS', '+++'],
+    ///['Scrum', '+++'],
+    //['', '++++'],
   ],
   plays: [
     {
@@ -35,7 +35,8 @@ module.exports = {
       subtitle: 'Portland, OR, USA',
       jtitle: 'Systems Engineer',
       written: 'October 2018 - October 2021',
-      badges: ['Python', 'C++', 'MatLab', 'Anaconda', 'Scrum'],
+      badges: ['Python', 'C++', 'MatLab', 'VBA',
+        'Anaconda', 'PyTorch', 'Scrum'],
       contents: `Part of the Rail Systems Engineering group.    Responsibilities revolved mainly around development and application of TrainOps, Hatch LTKs proprietary operations and electrical network simulation software, as well as some related field work.`,
       subcontents: ['TrainOps Development: Incorporation of user feedback, documentation, beta testing.', 'Postprocessing and analysis of simulation results, worked on new approaches to meet high data volumes.', 'Acquisition and preprocessing of field data to build simulation scenarios.']
     },
@@ -45,7 +46,7 @@ module.exports = {
       jtitle: 'Working Student, R&D',
       written: 'November 2015 - December 2017',
       badges: ['LabView', 'C++', 'MatLab'],
-      contents: `R&D Team member,  building a test facility for a high voltage DC Switch. My task was to build a virtual workbench to allow remote charging and testing, as well as test result analysis. `
+      contents: `R&D Team member,  building a test facility for a high voltage DC Switch. My task was to build a virtual workbench to allow remote charging, testing and monitoring, as well as test result analysis. `
     },
     {
       title: 'Siemens Rail Electrification,',
@@ -53,14 +54,15 @@ module.exports = {
       jtitle: 'Trainee, Project Engineering',
       written: 'October 2014 - July 2015',
       badges: ['LabView', 'MatLab', 'Siemens NX'],
-      contents: `Followed Helped facilitate factory acceptance test automation.`
+      contents: `Introduction to technical project management. Assisted in installing inspecting DC Substations. Facilitated automated Factory Acceptance Test (FAT) workbench for Rectifiers and DC Switchgear. `,
+      subcontents: []
     },
     {
       title: 'Siemens Infrastructure and Cities,',
       subtitle: 'Erlangen, Germany',
       jtitle: 'Working Student, IT Infrastructure',
       written: 'June 2012 - September 2014',
-      badges: ['SQL', 'Linux', 'SharePoint', 'Access'],
+      badges: ['SQL', 'Linux', 'VBA', 'SharePoint', 'Access'],
       contents: 'Working Student in part time, helping on-site with user IT issues, migration of Operating Systems, maintenance and migration of databases and server environments.'
     }
   ],
