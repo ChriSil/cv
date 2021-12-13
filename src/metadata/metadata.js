@@ -37,7 +37,7 @@ module.exports = {
       written: 'October 2018 - October 2021',
       badges: ['Python', 'C++', 'MatLab', 'VBA',
         'Anaconda', 'PyTorch', 'Scrum'],
-      contents: `Part of the Rail Systems Engineering group.    Responsibilities revolved mainly around development and application of TrainOps, Hatch LTKs proprietary operations and electrical network simulation software, as well as some related field work.`,
+      contents: `Part of the Rail Systems Engineering group.    Responsibilities revolved mainly around development and application of TrainOps\u00A9 , Hatch LTKs proprietary operations and electrical network simulation software, as well as some related field work.`,
       subcontents: ['TrainOps Development: Incorporation of user feedback, documentation, beta testing.', 'Postprocessing and analysis of simulation results, worked on new approaches to meet high data volumes.', 'Acquisition and preprocessing of field data to build simulation scenarios.']
     },
     {
