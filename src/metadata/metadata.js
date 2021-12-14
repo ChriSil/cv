@@ -13,20 +13,20 @@ module.exports = {
     ['Python', '++++'], //Row1Col1
     ['HTML/CSS', '+++'],
     ['Anaconda', '++'],
-    ['Docker', '+++'],
+    ['Bash', '+++'],
     ['VBA', '++'],
     ['Linux', '++++'],
     ['C++', '+++'], //Row2Col1
     ['MatLab', '+++'],
     ['PyTorch', '+++'],
-    ['AWS', '++'],
+    ['Docker', '++'],
     ['SQL', '+++'],
     ['GitHub', '++++'],
     ['JavaScript', '++'],  //Row2Col1
     ['NodeJS', '++'],
     ['TensorFlow', '++'],
     ['ROS', '+++'],
-    ///['Scrum', '+++'],
+    ['AWS', '++'],
     //['', '++++'],
   ],
   plays: [
