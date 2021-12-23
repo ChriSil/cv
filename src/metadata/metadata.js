@@ -31,7 +31,7 @@ module.exports = {
   ],
   plays: [
     {
-      title: 'Hatch Engineering Inc.,',
+      title: 'Hatch Ltd.,',
       subtitle: 'Portland, OR, USA',
       jtitle: 'Systems Engineer',
       written: 'October 2018 - October 2021',
