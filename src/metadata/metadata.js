@@ -1,13 +1,13 @@
 module.exports = {
   name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  title: 'Software Engineer, M.Sc.',
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
+      'Residence': '<a href="https://www.google.com/maps/place/Innsbruck/@47.2855079,11.3437708,13z/data=!3m1!4b1!4m6!3m5!1s0x479d6ecfe1f8ca73:0x9d201c7d281d9b0d!8m2!3d47.2692124!4d11.4041024!16zL20vMGZobXk"><i class="fa fa-home fact-icon"></i>Innsbruck, AT</a>',
+      'LinkedIn': `<a href="https://www.linkedin.com/in/christophersiller/en?original_referer=https%3A%2F%2Fwww.google.com%2F">
+                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>Christopher Siller
                 </a>`,
     'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    'Email': '<a href="mailto:chris.siller@alumni.fau.de"><i class="fa fa-envelope fact-icon"></i>chris.siller@alumni.fau.de</a>'
   },
   skills: [
     ['Comedy', 100],
@@ -25,9 +25,10 @@ module.exports = {
   ],
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
+        title: 'Ferchau Engineering, Innsbruck, AT',
+        subtitle: 'Software Engineer',
+      period: 'Apr 2022 - Present',
+      skills: ['Python', 'X', 'X'],
       contents: `
 Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
 `
