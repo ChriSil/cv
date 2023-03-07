@@ -10,18 +10,18 @@ module.exports = {
     'Email': '<a href="mailto:chris.siller@alumni.fau.de"><i class="fa fa-envelope fact-icon"></i>chris.siller@alumni.fau.de</a>'
   },
   skills: [
-    ['Comedy', 100],
-    ['Love', 100],
-    ['Theater', 100],
-    ['Tragedy', 100],
-    ['Poetry', 100],
-    ['Erotic', 75],
-    ['Sonnets', 100],
-    ['Plays', 100],
-    ['Writing', 100],
-    ['Directing', 75],
-    ['Literature', 100],
-    ['Influence', 100],
+    ['Python', 100],
+    ['C++', 80],
+    ['', 100],
+    ['', 100],
+    ['', 100],
+    ['', 75],
+    ['', 100],
+    ['', 100],
+    ['', 100],
+    ['', 75],
+    ['', 100],
+    ['', 100],
   ],
   positions: [
     {
@@ -29,9 +29,7 @@ module.exports = {
         subtitle: 'Software Engineer',
       period: 'Apr 2022 - Present',
       skills: ['Python', 'X', 'X'],
-      contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+      contents: ``
     },
     {
       title: 'Twelfth Night',
