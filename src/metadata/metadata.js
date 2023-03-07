@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'Christopehr Siller',
+  name: 'Christopher Siller',
   title: 'Software Engineer, M.Sc.',
   facts: {
       'Residence': '<a href="https://www.google.com/maps/place/Innsbruck/@47.2855079,11.3437708,13z/data=!3m1!4b1!4m6!3m5!1s0x479d6ecfe1f8ca73:0x9d201c7d281d9b0d!8m2!3d47.2692124!4d11.4041024!16zL20vMGZobXk"><i class="fa fa-home fact-icon"></i>Innsbruck, AT</a>',
@@ -7,8 +7,8 @@ module.exports = {
                   <i class="fa-brands fa-linkedin-in fact-icon"></i>Christopher Siller
                 </a>`,
       'Github': `<a href="https://github.com/ChriSil/"><i class="fa-brands fa-github fact-icon"></i>ChriSil</a>`,
-      'Email': '<a href="mailto:chris.siller@alumni.fau.de"><i class="fa fa-envelope fact-icon"></i>chris.siller@alumni.fau.de</a>'
-      'Phone': '<a href="tel:>+43-670-3522557"><i class="fa fa-envelope fact-icon"></i>+43 670 3522557</a>'
+      'Email': '<a href="mailto:chris.siller@alumni.fau.de"><i class="fa fa-envelope fact-icon"></i>chris.siller@alumni.fau.de</a>',
+      'Phone': '<a href="tel:>+43-670-3522557"><i class="fa fa-phone fact-icon"></i>+43 670 3522557</a>'
   },
   skills: [
     ['Python', 100],
@@ -26,12 +26,12 @@ module.exports = {
   ],
   positions: [
     {
-        title: 'Ferchau Engineering, Innsbruck, AT',
+        title: 'Ferchau Engineering, Innsbruck, AT', // used
         subtitle: 'Software Engineer',
-        period: 'Apr 2022 - Present',
-        skills: ['Python', 'X', 'X'],
+        period: 'Apr 2022 - Present', // used
+        skills: ['Python', 'X', 'X'], // used
         contents: `Working as Software Developer in the reliability management system scrum team, utilizing
-        data science principles to enhance the reliability of industrial machinery.`
+        data science principles to enhance the reliability of industrial machinery.` // used
     },
     {
         title: 'Hatch Ltd.',
