@@ -27,17 +27,23 @@ module.exports = {
     {
         title: 'Ferchau Engineering, Innsbruck, AT',
         subtitle: 'Software Engineer',
-      period: 'Apr 2022 - Present',
-      skills: ['Python', 'X', 'X'],
-      contents: ``
+        period: 'Apr 2022 - Present',
+        skills: ['Python', 'X', 'X'],
+        contents: `Working as Software Developer in the reliability management system scrum team, utilizing
+        data science principles to enhance the reliability of industrial machinery.`
     },
     {
-      title: 'Twsdfelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
-      contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+        title: 'Hatch Ltd.',
+        subtitle: 'Software and Systems Engineer',
+        period: 'October 2018 – October 2021',
+        skills: ['C++', 'Python', 'MatLab'],
+        contents: `Part of the Rail Systems Engineering group.    Responsibilities revolved mainly around
+        development and application of TrainOps\u00A9 , Hatch LTKs proprietary operations and electrical
+        network simulation software, as well as some related field work.`,
+        subcontents: ['TrainOps Development: Incorporation of user feedback, documentation, beta testing.',
+                      'Postprocessing and analysis of simulation results, worked on new approaches to meet high data volumes.',
+                      'Acquisition and preprocessing of field data to build simulation scenarios.']
+
     },
     {
       title: 'The Tragedy of Romeo and Juliet',
@@ -45,7 +51,7 @@ Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebast
       skills: ['tragedy', 'death', 'love'],
       contents: `
 In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
+
     }
   ],
   experience: [
