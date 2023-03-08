@@ -27,7 +27,7 @@ module.exports = {
   positions: [
     {
         title: 'Ferchau Engineering', // used
-        location: 'Innsbruck, AT'
+        location: 'Innsbruck, AT',
         subtitle: 'Software Engineer',
         period: 'Apr 2022 - Present', // used
         skills: ['Python', 'X', 'X'], // used
@@ -36,22 +36,23 @@ module.exports = {
     },
     {
         title: 'Hatch Ltd.',
+        location: 'Portland, OR, USA',
         subtitle: 'Software and Systems Engineer',
         period: 'Oct 2018 – Oct 2021',
         skills: ['C++', 'Python', 'MatLab'],
         contents: `Part of the Rail Systems Engineering group.    Responsibilities revolved mainly around
         development and application of TrainOps\u00A9 , Hatch LTKs proprietary operations and electrical
         network simulation software, as well as some related field work.`,
-        subcontents: ['TrainOps Development: Incorporation of user feedback, documentation, beta testing.',
-                      'Postprocessing and analysis of simulation results, worked on new approaches to meet high data volumes.',
-                      'Acquisition and preprocessing of field data to build simulation scenarios.']
+//        subcontents: ['TrainOps Development: Incorporation of user feedback, documentation, beta testing.',
+//                      'Postprocessing and analysis of simulation results, worked on new approaches to meet high data volumes.',
+//                      'Acquisition and preprocessing of field data to build simulation scenarios.']
 
     },
     {
         title: 'Siemens Transmission Solutions,',
+        location: 'Erlangen, Germany',
         period: 'Nov 2015 – Dec 2017',
-        subtitle: 'Erlangen, Germany',
-        jtitle: 'Working Student, R&D',
+        subtitle: 'Working Student, R&D',
         badges: ['LabView', 'C++', 'MatLab'],
         contents: `R&D Team member,  building a test facility for a high voltage DC Switch. My task was to build a virtual workbench to allow remote charging, testing and monitoring, as well as test result analysis. `
     },
