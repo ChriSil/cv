@@ -104,13 +104,11 @@
 
     <div class="border-bottom border-2 border-print-0 border-dark mb-5 pb-5 pb-print-0 mb-print-1">
         <h2 class="mb-4">Education</h2>
+        <h3 class="fs-4 fw-normal">Master of Science, Maschinenbau, <small>Friedrich Alexander Universität Erlangen-Nürnberg [2015 - 2018]</small></h3>
+        <h3 class="fs-4 fw-normal">Bachelor of Science, Maschinenbau, <small>Friedrich Alexander Universität Erlangen-Nürnberg [2011 - 2015]</small></h3>
         <div>Master of Science, Maschinenbau, Friedrich Alexander Universität Erlangen-Nürnberg [2015 - 2018]</div>
         <div>Bachelor of Science, Maschinenbau, Friedrich Alexander Universität Erlangen-Nürnberg [2011 - 2015]</div>
-    </div>
-
-    <h2 class="mb-4">Additional Experience</h2>
-
-    {{#each experience}}
+        {{#each theses}}
     <div class="mb-4">
         <h3 class="fs-4 fw-normal">{{ header }}</h3>
 
@@ -126,6 +124,27 @@
         </div>
     </div>
     {{/each}}
+    </div>
+
+    <h2 class="mb-4">Additional Experience</h2>
+    {{#each additional}}
+    <div class="mb-4">
+        <h3 class="fs-4 fw-normal">{{ header }}</h3>
+
+        {{{markdown contents }}}
+                  <ul>{{#each subcontents}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+        <div>
+            {{#each skills }}
+            <span class="badge text-body border border-1">{{ this }}</span>
+            {{/each}}
+        </div>
+    </div>
+    {{/each}}
+
+
 </div>
 </body>
 </html>

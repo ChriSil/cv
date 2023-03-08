@@ -78,7 +78,7 @@ module.exports = {
         subcontents:[]
     }
   ],
- experience: [
+ theses: [
           {
               header: 'Masters Thesis',
               skills: ['C++', 'Python', 'ROS'],
@@ -99,5 +99,25 @@ module.exports = {
       high power LED-systems"`,
               subcontents:['']
           },
-  ]
+  ],
+    additional: [
+      {
+          header: 'Masters Thesis',
+          skills: ['C++', 'Python', 'ROS'],
+          contents: `"(Currently Semi-active) Involvment in the NNFS community. This is an effort to teach understanding of Neural Networks by building them from scratch, using Python's NLTK (Natural Language Toolkit). "`,
+          subcontents:['']
+      },
+      {
+          header: '',
+          skills: ['3D Print', 'Aerosols','PLC'],
+          contents: `"Neural Networks from Scratch"`,
+          subcontents:['']
+      },
+      {
+          header: '',
+          skills: ['FEM Analysis', 'Thermal Condictivity'],
+          contents: `"Registered Yoga Teacher (RYT 200) at Yoga Alliance USA. I do not actively teach Yoga at the moment. "`,
+          subcontents:['']
+      },
+      ]
 };
