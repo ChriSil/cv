@@ -13,26 +13,28 @@ module.exports = {
   skills: [
     ['Python', 100],
     ['C++', 80],
+    ['TensorFlow', 75],
+    ['PyTorch', 75],
+    ['NodeJS', 60],
+    ['MatLab', 75],
     ['', 100],
     ['', 100],
-    ['', 100],
-    ['', 75],
-    ['', 100],
-    ['', 100],
-    ['', 100],
-    ['', 75],
-    ['', 100],
-    ['', 100],
+    ['ROS', 100],
+    ['Docker', 75],
+    ['Linux', 80],
+    ['Embed. Linux', 80],
   ],
   positions: [
       {
-        period: 'Apr 2022 - Present', // used
-        title: 'Ferchau Engineering', // used
+        period: 'Apr 2022 - Present',
+        title: 'Ferchau Engineering',
         location: 'Innsbruck, AT',
         subtitle: 'Software Engineer',
-        skills: ['Python', 'X', 'X'], // used
-        contents: `Working as Software Developer in the reliability management system scrum team, utilizing data science principles to enhance the reliability of industrial machinery.`,
-        subcontents:['','']
+        skills: ['Python',,'AWS','Docker','Kubernetes','Pandas', 'Dash'],
+        contents: `Working as Software Developer in the reliability management system scrum team, utilizing data science                    principles to enhance the reliability of industrial machinery.`,
+        subcontents:['Assesment and processing of API and DB Data',
+                     'Front End Data Display with Dash',
+                     'Analysis of the data we see?']
     },
     {
         period: 'Oct 2018 – Oct 2021',
@@ -41,8 +43,8 @@ module.exports = {
         subtitle: 'Software and Systems Engineer',
         skills: ['C++', 'Python', 'MatLab'],
         contents: `Part of the Rail Systems Engineering group.    Responsibilities revolved mainly around
-        development and application of TrainOps\u00A9 , Hatch LTKs proprietary operations and electrical
-        network simulation software, as well as some related field work.`,
+                    development and application of TrainOps\u00A9 , Hatch LTKs proprietary operations and electrical
+                    network simulation software, as well as some related field work.`,
         subcontents: ['TrainOps Development: Incorporation of user feedback, documentation, beta testing.',
                       'Postprocessing and analysis of simulation results, worked on new approaches to meet high data volumes.',
                       'Acquisition and preprocessing of field data to build simulation scenarios.']
@@ -53,44 +55,49 @@ module.exports = {
         title: 'Siemens Transmission Solutions,',
         location: 'Erlangen, Germany',
         subtitle: 'Working Student, R&D',
-        badges: ['LabView', 'C++', 'MatLab'],
-        contents: `R&D Team member,  building a test facility for a high voltage DC Switch. My task was to build a virtual workbench to allow remote charging, testing and monitoring, as well as test result analysis. `
+        skills: ['LabView', 'C++', 'MatLab'],
+        contents: `R&D Team member,  building a test facility for a high voltage DC Switch. My task was to build a virtual workbench to allow remote charging, testing and monitoring, as well as test result analysis. `,
+        subcontents:[]
     },
     {
-        title: 'Siemens Rail Electrification,',
-        subtitle: 'Portland, OR, USA',
-        jtitle: 'Trainee, Project Engineering',
         period: 'Oct 2014 - Jul 2015',
-        badges: ['LabView', 'MatLab', 'Siemens NX'],
+        title: 'Siemens Rail Electrification',
+        location: 'Portland, OR, USA',
+        subtitle: 'Trainee, Project Engineering',
+        skills: ['LabView', 'MatLab', 'Siemens NX'],
         contents: `Introduction to technical project management. Assisted in installing inspecting DC Substations. Facilitated automated Factory Acceptance Test (FAT) workbench for Rectifiers and DC Switchgear. `,
         subcontents: []
     },
     {
-        title: 'Siemens Infrastructure and Cities,',
-        subtitle: 'Erlangen, Germany',
-        jtitle: 'Working Student, IT Infrastructure',
         period: 'Jun 2012 - Sep 2014',
-        badges: ['SQL', 'Linux', 'VBA', 'SharePoint', 'Access'],
-        contents: 'Working Student in part time, helping on-site with user IT issues, migration of Operating Systems, maintenance and migration of databases and server environments.'
+        title: 'Siemens Infrastructure and Cities,',
+        location: 'Erlangen, Germany',
+        subtitle: 'Working Student, IT Infrastructure',
+        skills: ['SQL', 'Linux', 'VBA', 'SharePoint', 'Access'],
+        contents: 'Working Student in part time, helping on-site with user IT issues, migration of Operating Systems, maintenance and migration of databases and server environments.',
+        subcontents:[]
     }
   ],
  experience: [
           {
               header: 'Masters Thesis',
               skills: ['C++', 'Python', 'ROS'],
-              contents: `Software development to calculating flight trajectories for autonomous
-      multicopters in intralogistics`
+              contents: `"Software development to calculating flight trajectories for autonomous
+      multicopters in intralogistics"`,
+              subcontents:['']
           },
           {
               header: 'Project Thesis',
-              skills: ['3d Print', 'Aerosols'],
-              contents: `Fabrication of artficial muscles using the Aerosol-Jet-3D-Print method`
+              skills: ['3D Print', 'Aerosols','PLC'],
+              contents: `"Fabrication of artficial muscles using the Aerosol-Jet-3D-Print method"`,
+              subcontents:['']
           },
           {
               header: 'Bachelors Thesis',
               skills: ['FEM Analysis', 'Thermal Condictivity'],
-              contents: `Experimental and simulative analysis of thermally conductive polymers in
-      high power LED-systems`
+              contents: `"Experimental and simulative analysis of thermally conductive polymers in
+      high power LED-systems"`,
+              subcontents:['']
           },
   ]
 };
