@@ -84,7 +84,7 @@ module.exports = {
               skills: ['C++', 'Python', 'ROS'],
               contents: `"Software development to calculating flight trajectories for autonomous
       multicopters in intralogistics"`,
-              subcontents:['']
+              subcontents:["This project kickstarted my passion for software engineering, specifically in regards to utilizing Open Source resources. I was tasked with building the backend for our drone fleet, and the integration of position data into the drone's calculations for its flight trajectory. ","Intrafly Project, University of Erlangen"]
           },
           {
               header: 'Project Thesis',
@@ -102,21 +102,21 @@ module.exports = {
   ],
     additional: [
       {
-          header: 'Masters Thesis',
+          header: '',
           skills: ['C++', 'Python', 'ROS'],
-          contents: `"(Currently Semi-active) Involvment in the NNFS community. This is an effort to teach understanding of Neural Networks by building them from scratch, using Python's NLTK (Natural Language Toolkit). "`,
+          contents: `(Currently Semi-active) Involvment in the NNFS community. This is an effort to teach understanding of Neural Networks by building them from scratch, using Python's NLTK (Natural Language Toolkit).`,
           subcontents:['']
       },
       {
           header: '',
-          skills: ['3D Print', 'Aerosols','PLC'],
-          contents: `"Neural Networks from Scratch"`,
+          skills: ['', '',''],
+          contents: ``,
           subcontents:['']
       },
       {
           header: '',
-          skills: ['FEM Analysis', 'Thermal Condictivity'],
-          contents: `"Registered Yoga Teacher (RYT 200) at Yoga Alliance USA. I do not actively teach Yoga at the moment. "`,
+          skills: [],
+          contents: `I am a Registered Yoga Teacher (RYT 200) with Yoga Alliance USA. I do not actively teach Yoga at the moment.`,
           subcontents:['']
       },
       ]
