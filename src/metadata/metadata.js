@@ -17,9 +17,7 @@ module.exports = {
     ['PyTorch', 75],
     ['NodeJS', 60],
     ['MatLab', 75],
-    ['', 100],
-    ['', 100],
-    ['ROS', 100],
+    ['ROS', 60],
     ['Docker', 75],
     ['Linux', 80],
     ['Embed. Linux', 80],
@@ -30,11 +28,13 @@ module.exports = {
         title: 'Ferchau Engineering',
         location: 'Innsbruck, AT',
         subtitle: 'Software Engineer',
-        skills: ['Python',,'AWS','Docker','Kubernetes','Pandas', 'Dash'],
-        contents: `Working as Software Developer in the reliability management system scrum team, utilizing data science                    principles to enhance the reliability of industrial machinery.`,
-        subcontents:['Assesment and processing of API and DB Data',
-                     'Front End Data Display with Dash',
-                     'Analysis of the data we see?']
+        skills: ['Python','AWS','Docker','Kubernetes','Pandas','Numpy', 'Dash'],
+        contents: `I am currently working as Software Engineer in a team of Data Scientists and Developers,
+        developing tools to enhance the reliability of industrial machinery. My particular interest revolves around
+        utilizing machine learning to generate new insights from the large amounts of data available to us.`,
+        subcontents:['Acquisition, analysis and processing of machine and machine related data.',
+                     'Data Visualization Interfaces built using Flask, Dash, Plotly.',
+                     'Backend Development and Data Availability using ClickHouse, Prefect, AWS, SQL']
     },
     {
         period: 'Oct 2018 – Oct 2021',
@@ -42,11 +42,11 @@ module.exports = {
         location: 'Portland, OR, USA',
         subtitle: 'Software and Systems Engineer',
         skills: ['C++', 'Python', 'MatLab'],
-        contents: `Part of the Rail Systems Engineering group.    Responsibilities revolved mainly around
+        contents: `Part of the Rail Systems Engineering group. Responsibilities revolved mainly around
                     development and application of TrainOps\u00A9 , Hatch LTKs proprietary operations and electrical
                     network simulation software, as well as some related field work.`,
-        subcontents: ['TrainOps Development: Incorporation of user feedback, documentation, beta testing.',
-                      'Postprocessing and analysis of simulation results, worked on new approaches to meet high data volumes.',
+        subcontents: ['TrainOps Development: feature implementation,beta testing, real world application.',
+                      'Postprocessing and analysis of simulation results, working on new approaches to meet high data volumes.',
                       'Acquisition and preprocessing of field data to build simulation scenarios.']
 
     },
@@ -56,7 +56,8 @@ module.exports = {
         location: 'Erlangen, Germany',
         subtitle: 'Working Student, R&D',
         skills: ['LabView', 'C++', 'MatLab'],
-        contents: `R&D Team member,  building a test facility for a high voltage DC Switch. My task was to build a virtual workbench to allow remote charging, testing and monitoring, as well as test result analysis. `,
+        contents: `R&D Team member,  building a test facility for a high voltage DC Switch. My task was to build a
+        virtual workbench to allow remote charging, testing and monitoring, as well as test result analysis.`,
         subcontents:[]
     },
     {
@@ -65,7 +66,8 @@ module.exports = {
         location: 'Portland, OR, USA',
         subtitle: 'Trainee, Project Engineering',
         skills: ['LabView', 'MatLab', 'Siemens NX'],
-        contents: `Introduction to technical project management. Assisted in installing inspecting DC Substations. Facilitated automated Factory Acceptance Test (FAT) workbench for Rectifiers and DC Switchgear. `,
+        contents: `Introduction to technical project management. Assisted in installing inspecting DC Substations.
+        Facilitated automated Factory Acceptance Test (FAT) workbench for Rectifiers and DC Switchgear. `,
         subcontents: []
     },
     {
@@ -84,7 +86,7 @@ module.exports = {
               skills: ['C++', 'Python', 'ROS'],
               contents: `"Software development to calculating flight trajectories for autonomous
       multicopters in intralogistics"`,
-              subcontents:["This project kickstarted my passion for software engineering, specifically in regards to utilizing Open Source resources. I was tasked with building the backend for our drone fleet, and the integration of position data into the drone's calculations for its flight trajectory. ","Intrafly Project, University of Erlangen"]
+              subcontents:['This project kickstarted my passion for software engineering, especially in utilizing Open Source resources. I was tasked with building the backend for an autonomous fleet or drones, and the integration of position data into flight trajectory calculations. ',"Intrafly Project, University of Erlangen']
           },
           {
               header: 'Project Thesis',
