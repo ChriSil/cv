@@ -81,10 +81,11 @@
                 {{ period }}
             </div>
             <div class="col-md-10">
-                <h3 class="fs-4 fw-normal">{{ title }},<small>{{ location }}</small></h3>
-                <p>{ subtitle }}</p>
+                <h3 class="fs-4 fw-normal">{{ title }}, <small>{{ location }}</small></h3>
+                <p>{{ subtitle }}</p>
 
-                <div>{{{markdown contents }}}</div>
+                <div>{{{markdown contents }}}
+                <ul>{{#each subcontents}}</ul></div>
 
                 <p>
                     {{#each skills }}
