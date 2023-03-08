@@ -38,6 +38,6 @@
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
-    "github-pages": "^3.0.2"
+    "github-pages": "^0.1.0"
   }
 }

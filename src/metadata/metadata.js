@@ -26,7 +26,8 @@ module.exports = {
   ],
   positions: [
     {
-        title: 'Ferchau Engineering, Innsbruck, AT', // used
+        title: 'Ferchau Engineering', // used
+        location: 'Innsbruck, AT'
         subtitle: 'Software Engineer',
         period: 'Apr 2022 - Present', // used
         skills: ['Python', 'X', 'X'], // used
