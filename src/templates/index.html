@@ -85,7 +85,12 @@
                 <p>{{ subtitle }}</p>
 
                 <div>{{{markdown contents }}}
-                <ul>{{#each subcontents}}</ul>{{/each}}</div>
+                <ul>{{#each subcontents}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+                
+                </div>
 
                 <p>
                     {{#each skills }}
