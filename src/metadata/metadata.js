@@ -91,8 +91,10 @@ module.exports = {
               skills: ['C++', 'Python', 'ROS'],
               contents: `"Software development to calculating flight trajectories for autonomous
       multicopters in intralogistics"`,
-              subcontents:['This project kickstarted my passion for software engineering, especially in utilizing Open Source resources. I was tasked with building the backend for an autonomous fleet or drones, and the integration of position data into flight trajectory calculations.',
-                           '<a href="https://www.faps.fau.de/curforsch/intrafly-einsatz-autonomer-flugroboter-in-der-intralogistik/">Intrafly Project, University of Erlangen</a>']
+              subcontents: [
+        'This project kickstarted my passion for software engineering, especially in utilizing Open Source resources. I was tasked with building the backend for an autonomous fleet or drones, and the integration of position data into flight trajectory calculations.',
+        '<a href="https://www.faps.fau.de/curforsch/intrafly-einsatz-autonomer-flugroboter-in-der-intralogistik/">Intrafly Project, University of Erlangen</a>'
+              ]
           },
           {
               header: 'Project Thesis',
