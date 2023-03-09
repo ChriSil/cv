@@ -6,13 +6,14 @@ module.exports = {
       'LinkedIn': `<a href="https://www.linkedin.com/in/christophersiller/en?original_referer=https%3A%2F%2Fwww.google.com%2F">
                   <i class="fa-brands fa-linkedin-in fact-icon"></i>Christopher Siller
                 </a>`,
-      'Github': `<a href="https://github.com/ChriSil/"><i class="fa-brands fa-github fact-icon"></i>ChriSil</a>`,
+      'GitHub': `<a href="https://github.com/ChriSil/"><i class="fa-brands fa-github fact-icon"></i>ChriSil</a>`,
+      'StackOverflow': '<a href="hhttps://stackoverflow.com/users/7425011/chrisil"><i class="fa-brands fa-stack-overflow fact-icon"></i>ChriSil</a>'
       'Email': '<a href="mailto:chris.siller@alumni.fau.de"><i class="fa fa-envelope fact-icon"></i>chris.siller@alumni.fau.de</a>',
       'Phone': '<a href="tel:>+43-670-3522557"><i class="fa fa-phone fact-icon"></i>+43 670 3522557</a>'
   },
   skills: [
     ['Python', 100],
-    ['C, C#', 60],
+    ['C, C#', 70],
     ['TensorFlow', 70],
     ['ROS', 80],
     ['MatLab', 75],
@@ -34,7 +35,7 @@ module.exports = {
         subtitle: 'Software Engineer',
         skills: ['Python','AWS','Docker','Kubernetes','Pandas','Numpy', 'Dash'],
           contents: `Part of an interdisciplinary team of Engineers, Data Scientists and Developers,
-        creating tools to enhance the reliability of industrial machinery. My particular interest revolves around
+        creating tools to enhance the reliability of industrial engines. The team's interest revolves around
         leveraging machine learning techniques to extract new insights from the data at our disposal.`,
         subcontents:['Processing and analyisis of machine and machine related data with Pandas/NumPy/SciPy.',
                      'Developing Data Visualization Interfaces using Flask/Dash/Plotly.',
@@ -90,27 +91,28 @@ module.exports = {
               skills: ['C++', 'Python', 'ROS'],
               contents: `"Software development to calculating flight trajectories for autonomous
       multicopters in intralogistics"`,
-              subcontents:['This project kickstarted my passion for software engineering, especially in utilizing Open Source resources. I was tasked with building the backend for an autonomous fleet or drones, and the integration of position data into flight trajectory calculations.','Intrafly Project, University of Erlangen']
+              subcontents:['This project kickstarted my passion for software engineering, especially in utilizing Open Source resources. I was tasked with building the backend for an autonomous fleet or drones, and the integration of position data into flight trajectory calculations.',
+                           '<a href="https://www.faps.fau.de/curforsch/intrafly-einsatz-autonomer-flugroboter-in-der-intralogistik/">Intrafly Project, University of Erlangen</a>']
           },
           {
               header: 'Project Thesis',
               skills: ['3D Print', 'Aerosols','PLC'],
               contents: `"Fabrication of artficial muscles using the Aerosol-Jet-3D-Print method"`,
-              subcontents:['']
+              subcontents:[]
           },
           {
               header: 'Bachelors Thesis',
               skills: ['FEM Analysis', 'Thermal Condictivity'],
               contents: `"Experimental and simulative analysis of thermally conductive polymers in
       high power LED-systems"`,
-              subcontents:['']
+              subcontents:[]
           },
   ],
-    additional: [
+    additional: [ //unused
       {
           header: '',
-          skills: ['C++', 'Python', 'ROS'],
-          contents: `(Currently Semi-active) Involvment in the NNFS community. This is an effort to teach understanding of Neural Networks by building them from scratch, using Python's NLTK (Natural Language Toolkit).`,
+          skills: ['', '', ''],
+          contents: '',
           subcontents:['']
       },
       {
@@ -122,8 +124,8 @@ module.exports = {
       {
           header: '',
           skills: [],
-          contents: `I am a Registered Yoga Teacher (RYT 200) with Yoga Alliance USA. I do not actively teach Yoga at the moment.`,
-          subcontents:['']
+          contents:'' ,
+          subcontents: []
       },
       ]
 };
