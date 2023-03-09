@@ -7,7 +7,7 @@ module.exports = {
                   <i class="fa-brands fa-linkedin-in fact-icon"></i>Christopher Siller
                 </a>`,
       'GitHub': `<a href="https://github.com/ChriSil/"><i class="fa-brands fa-github fact-icon"></i>ChriSil</a>`,
-      'StackOverflow': '<a href="hhttps://stackoverflow.com/users/7425011/chrisil"><i class="fa-brands fa-stack-overflow fact-icon"></i>ChriSil</a>',
+      'StackOverflow': '<a href="https://stackoverflow.com/users/7425011/chrisil"><i class="fa-brands fa-stack-overflow fact-icon"></i>ChriSil</a>',
       'Email': '<a href="mailto:chris.siller@alumni.fau.de"><i class="fa fa-envelope fact-icon"></i>chris.siller@alumni.fau.de</a>',
       'Phone': '<a href="tel:>+43-670-3522557"><i class="fa fa-phone fact-icon"></i>+43 670 3522557</a>'
   },
