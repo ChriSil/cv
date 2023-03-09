@@ -12,15 +12,19 @@ module.exports = {
   },
   skills: [
     ['Python', 100],
-    ['C++', 80],
-    ['TensorFlow', 75],
-    ['PyTorch', 75],
-    ['NodeJS', 60],
+    ['C, C#', 60],
+    ['TensorFlow', 70],
+    ['ROS', 80],
     ['MatLab', 75],
-    ['ROS', 60],
+    ['Kubernetes', 60],
+
+    // r2
+    ['C++', 80],
+    ['Rust',50],
+    ['PyTorch', 75],
     ['Docker', 75],
     ['Linux', 80],
-    ['Embed. Linux', 80],
+    ['NodeJS', 60],
   ],
   positions: [
       {
@@ -29,12 +33,12 @@ module.exports = {
         location: 'Innsbruck, AT',
         subtitle: 'Software Engineer',
         skills: ['Python','AWS','Docker','Kubernetes','Pandas','Numpy', 'Dash'],
-        contents: `I am currently working as Software Engineer in a team of Data Scientists and Developers,
-        developing tools to enhance the reliability of industrial machinery. My particular interest revolves around
-        utilizing machine learning to generate new insights from the large amounts of data available to us.`,
-        subcontents:['Acquisition, analysis and processing of machine and machine related data.',
-                     'Data Visualization Interfaces built using Flask, Dash, Plotly.',
-                     'Backend Development and Data Availability using ClickHouse, Prefect, AWS, SQL']
+          contents: `Part of an interdisciplinary team of Engineers, Data Scientists and Developers,
+        creating tools to enhance the reliability of industrial machinery. My particular interest revolves around
+        leveraging machine learning techniques to extract new insights from the data at our disposal.`,
+        subcontents:['Processing and analyisis of machine and machine related data with Pandas/NumPy/SciPy.',
+                     'Developing Data Visualization Interfaces using Flask/Dash/Plotly.',
+                     'Backend Development and Data Availability with ClickHouse/Prefect/AWS/Lambda/SQL']
     },
     {
         period: 'Oct 2018 – Oct 2021',
