@@ -13,19 +13,19 @@ module.exports = {
   },
   skills: [
     ['Python', 100],
-    ['C, C#', 70],
+    ['Mojo \u1F525', 70],
+    ['NodeJS', 60],
+    ['Jupyter', 60],
     ['TensorFlow', 70],
-    ['ROS', 80],
-    ['MatLab', 75],
-    ['Kubernetes', 60],
+    ['Docker', 70],
 
     // r2
     ['C++', 80],
-    ['Rust',50],
-    ['PyTorch', 75],
-    ['Docker', 75],
+    ['C/C#', 60],
+    ['Java', 60],
+    ['Rust', 50],
     ['Linux', 80],
-    ['NodeJS', 60],
+    ['Kubernetes', 70],
   ],
   positions: [
       {
