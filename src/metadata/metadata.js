@@ -57,8 +57,8 @@ module.exports = {
     },
     {
         period: 'Nov 2015 – Dec 2017',
-        title: 'Siemens Transmission Solutions,',
-        location: 'Erlangen, Germany',
+        title: 'Siemens Transmission Solutions',
+        location: 'Erlangen, GER',
         subtitle: 'Working Student, R&D',
         skills: ['LabView', 'C++', 'MatLab'],
         contents: `R&D Team member,  building a test facility for a high voltage DC Switch. My task was to build a
@@ -77,8 +77,8 @@ module.exports = {
     },
     {
         period: 'Jun 2012 - Sep 2014',
-        title: 'Siemens Infrastructure and Cities,',
-        location: 'Erlangen, Germany',
+        title: 'Siemens Infrastructure and Cities',
+        location: 'Erlangen, GER',
         subtitle: 'Working Student, IT Infrastructure',
         skills: ['SQL', 'Linux', 'VBA', 'SharePoint', 'Access'],
         contents: 'Working Student in part time, helping on-site with user IT issues, migration of Operating Systems, maintenance and migration of databases and server environments.',
