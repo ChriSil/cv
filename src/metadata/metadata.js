@@ -13,9 +13,9 @@ module.exports = {
   },
   skills: [
     ['Python', 100],
-    ['Mojo \u1F525', 70],
+    ['Mojo \u{1F525}', 70],
     ['NodeJS', 60],
-    ['Jupyter', 60],
+    ['Linux', 80],
     ['TensorFlow', 70],
     ['Docker', 70],
 
@@ -24,7 +24,7 @@ module.exports = {
     ['C/C#', 60],
     ['Java', 60],
     ['Rust', 50],
-    ['Linux', 80],
+    ['Jupyter', 80],
     ['Kubernetes', 70],
   ],
   positions: [
