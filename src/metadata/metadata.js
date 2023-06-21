@@ -13,7 +13,7 @@ module.exports = {
   },
   skills: [
     ['Python', 100],
-    ['Mojo&nbsp;\u{1F525}', 40],
+    ['Mojo\u{00A0}\u{1F525}', 45],
     ['NodeJS', 60],
     ['Linux', 80],
     ['TensorFlow', 70],
