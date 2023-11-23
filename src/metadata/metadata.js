@@ -17,17 +17,17 @@ module.exports = {
   },
   skills: [
     ['Python', 100],
-    ['Mojo\u{00A0}\u{1F525}', 40],
-    ['NodeJS', 60],
+    ['Rust', 30],
+    ['Matlab', 60],
     ['Linux', 80],
     ['TensorFlow', 70],
     ['Docker', 70],
 
     // r2
     ['C++', 80],
-    ['C/C#', 50],
+    ['C#/.NET', 50],
     ['TypeScript', 50],
-    ['Rust', 50],
+    ['Postman', 40],
     ['Jupyter', 80],
     ['Kubernetes', 70],
   ],
@@ -36,7 +36,7 @@ module.exports = {
       period: 'Apr 2022 - Present',
       title: 'Ferchau Engineering',
       location: 'Innsbruck, AT',
-      subtitle: 'Software Engineer',
+      subtitle: 'Software / Data Engineer',
       skills: [
         'Python',
         'AWS',
@@ -53,6 +53,7 @@ module.exports = {
         'Processing and analyisis of machine and machine related data with Pandas/NumPy/SciPy.',
         'Developing Data Visualization Interfaces using Flask/Dash/Plotly.',
         'Backend Development and Data Availability with ClickHouse/Prefect/AWS/Lambda/SQL',
+        'Exploring Weibull Statistics/Predictive Maintenance/RNNs/Time Series Analysis for insights.'
       ],
     },
     {
@@ -104,11 +105,11 @@ module.exports = {
   theses: [
     {
       header: 'Masters Thesis',
-      skills: ['C++', 'Python', 'ROS'],
+      skills: ['C++', 'Python', 'ROS', 'Computer Vision', 'Object Detection'],
       contents: `"Software development to calculating flight trajectories for autonomous
       multicopters in intralogistics"`,
       subcontents: [
-        'This project kickstarted my passion for software engineering, especially in utilizing Open Source resources. I was tasked with building the backend for an autonomous fleet or drones, and the integration of position data into flight trajectory calculations.',
+        'This project kickstarted my passion for robotics and software engineering, especially in utilizing Open Source resources. I was tasked with building the backend for an autonomous fleet or drones, and the integration of position and vision data into flight trajectory calculations.',
         '<a href="https://www.faps.fau.de/curforsch/intrafly-einsatz-autonomer-flugroboter-in-der-intralogistik/">Intrafly Project, University of Erlangen</a>',
       ],
     },
